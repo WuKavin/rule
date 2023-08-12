@@ -1,10 +1,10 @@
 ##emby
-  DOMAIN-KEYWORD,misty
-  DOMAIN-KEYWORD,emby
-  DOMAIN-KEYWORD,agon
-  DOMAIN-KEYWORD,odysseyplus
-  DOMAIN-KEYWORD,odylife
-  DOMAIN-KEYWORD,misakaf
-  DOMAIN-KEYWORD,cfca
-  DOMAIN-KEYWORD,loseremby
-  IP-CIDR,144.76.95.144/32
+    - DOMAIN-KEYWORD,misty
+    - DOMAIN-KEYWORD,emby
+    - DOMAIN-KEYWORD,agon
+    - DOMAIN-KEYWORD,odysseyplus
+    - DOMAIN-KEYWORD,odylife
+    - DOMAIN-KEYWORD,misakaf
+    - DOMAIN-KEYWORD,cfca
+    - DOMAIN-KEYWORD,loseremby
+    - IP-CIDR,144.76.95.144/32
