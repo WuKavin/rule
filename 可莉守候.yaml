@@ -190,7 +190,7 @@ rule-providers:
   FCM:
     <<: *RuleProviders
     path: './rules/FCM.list'
-    url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list'
+    url: 'https://raw.githubusercontent.com/WuKavin/rule/refs/heads/main/GoogleFCM.yaml'
 
   Proxy:
     <<: *RuleProviders
