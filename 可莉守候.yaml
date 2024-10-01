@@ -296,12 +296,13 @@ rule-providers:
 rules:
   - RULE-SET, Lan, DIRECT
   - RULE-SET, Direct, DIRECT
+  - RULE-SET, FCM, DIRECT
   - RULE-SET, Proxy, 兜底策略
   - RULE-SET, ChinaDownloadCDN, DIRECT
   - RULE-SET, InternationalDownloadCDN, 境外下载
   - RULE-SET, AI, AI
   - RULE-SET, TikTok, TikTok
-  - RULE-SET, Steam, 兜底策略
+  - RULE-SET, Steam, 游戏选择
   - RULE-SET, Game, 游戏选择
   - RULE-SET, Netflix, Netflix
   - RULE-SET, Emby, Emby
