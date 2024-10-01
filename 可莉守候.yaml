@@ -294,6 +294,23 @@ rule-providers:
 
 # 规则指向
 rules:
+##自定义规则
+  - DOMAIN-KEYWORD,gemini,美国策略
+  - DOMAIN-KEYWORD,claude,美国策略
+  - DOMAIN-KEYWORD,openai,美国策略
+  - DOMAIN-KEYWORD,anthropic,美国策略
+  - DOMAIN-KEYWORD,chatgpt,美国策略
+  - DOMAIN-KEYWORD,nvidia,DIRECT
+  - DOMAIN-KEYWORD,gamma,美国策略
+  
+##emby
+  - DOMAIN-KEYWORD,emby,全球选择
+  - DOMAIN-KEYWORD,odysseyplus,全球选择
+  - DOMAIN-KEYWORD,cfca,全球选择
+  - DOMAIN-KEYWORD,loseremby,全球选择
+  - DOMAIN-KEYWORD,xmsl,全球选择
+  - DOMAIN-KEYWORD,baicola,DIRECT
+
   - RULE-SET, Lan, DIRECT
   - RULE-SET, Direct, DIRECT
   - RULE-SET, FCM, DIRECT
