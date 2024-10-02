@@ -302,7 +302,7 @@ rules:
   - DOMAIN-KEYWORD,chatgpt,美国策略
   - DOMAIN-KEYWORD,nvidia,DIRECT
   - DOMAIN-KEYWORD,gamma,美国策略
-  - DOMAIN-KEYWORD,gamma,香港策略
+  - DOMAIN-KEYWORD,zerotier,香港策略
   
 ##emby
   - DOMAIN-KEYWORD,emby,全球选择
