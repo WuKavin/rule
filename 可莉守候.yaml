@@ -232,6 +232,11 @@ rule-providers:
     path: './rules/Steam.yaml'
     url: 'https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Clash/Steam/Steam.yaml'
 
+  Xbox:
+    <<: *RuleProviders
+    path: './rules/Xbox.yaml'
+    url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Xbox.yaml'
+
   Netflix:
     <<: *RuleProviders
     path: './rules/Netflix.yaml'
@@ -319,6 +324,7 @@ rules:
   - RULE-SET, ChinaDownloadCDN, DIRECT
   - RULE-SET, InternationalDownloadCDN, 境外下载
   - RULE-SET, AI, AI
+  - RULE-SET, Xbox, 游戏选择
   - RULE-SET, TikTok, TikTok
   - RULE-SET, Steam, 游戏选择
   - RULE-SET, Game, 游戏选择
