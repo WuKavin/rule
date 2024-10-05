@@ -305,6 +305,7 @@ rule-providers:
 # 规则指向
 rules:
 ##自定义规则
+  - RULE-SET, FCM, DIRECT
   - DOMAIN-KEYWORD,nvidia,DIRECT
   - DOMAIN-KEYWORD,gamma,美国策略
   - DOMAIN-KEYWORD,zerotier,香港策略
@@ -321,7 +322,6 @@ rules:
   - RULE-SET, Lan, DIRECT
   - RULE-SET, Bilibili, 香港策略
   - RULE-SET, Direct, DIRECT
-  - RULE-SET, FCM, DIRECT
   - RULE-SET, Proxy, 兜底策略
   - RULE-SET, ChinaDownloadCDN, DIRECT
   - RULE-SET, InternationalDownloadCDN, 境外下载
