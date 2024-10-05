@@ -308,6 +308,7 @@ rules:
   - DOMAIN-KEYWORD,nvidia,DIRECT
   - DOMAIN-KEYWORD,gamma,美国策略
   - DOMAIN-KEYWORD,zerotier,香港策略
+  - DOMAIN-KEYWORD,googleapis,美国策略
   
 ##emby
   - DOMAIN-KEYWORD,emby,全球选择
