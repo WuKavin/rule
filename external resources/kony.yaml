@@ -183,11 +183,6 @@ rule-providers:
     path: './rules/Lan.yaml'
     url: 'https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Clash/Lan/Lan.yaml'
 
-  adblock:
-    <<: *RuleProviders
-    path: './rules/adblock_reject.yaml'
-    url: 'https://raw.githubusercontent.com/REIJI007/AdBlock_Rule_For_Clash/main/adblock_reject.yaml'
-
   Bilibili:
     <<: *RuleProviders
     path: './rules/Bilibili.yaml'
@@ -326,7 +321,6 @@ rules:
   - DOMAIN-KEYWORD,baicola,DIRECT
 
   - RULE-SET, Lan, DIRECT
-  - RULE-SET, adblock, REJECT
   - RULE-SET, Bilibili, 香港策略
   - RULE-SET, Direct, DIRECT
   - RULE-SET, Proxy, 兜底策略
