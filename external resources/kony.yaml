@@ -330,6 +330,7 @@ rules:
 
   - RULE-SET, Lan, DIRECT
   - RULE-SET, Bilibili, 香港策略
+  - RULE-SET, YouTube, YouTube
   - RULE-SET, Direct, DIRECT
   - RULE-SET, Proxy, 兜底策略
   - RULE-SET, ChinaDownloadCDN, DIRECT
@@ -351,7 +352,6 @@ rules:
   - RULE-SET, Microsoft, Microsoft
   - RULE-SET, Google, 兜底策略
   - RULE-SET, Telegram, Telegram
-  - RULE-SET, YouTube, YouTube
   - RULE-SET, ESET_China, DIRECT
   - GEOIP, CN, DIRECT
   - MATCH, 兜底策略
