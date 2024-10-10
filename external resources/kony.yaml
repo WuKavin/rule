@@ -353,7 +353,5 @@ rules:
   - RULE-SET, Telegram, Telegram
   - RULE-SET, YouTube, YouTube
   - RULE-SET, ESET_China, DIRECT
-  - GEOIP, CN
-  - RULE-SET, ESET_China, DIRECT
   - GEOIP, CN, DIRECT
   - MATCH, 兜底策略
