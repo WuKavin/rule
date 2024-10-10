@@ -92,6 +92,13 @@ proxy-providers:
     override:
       additional-prefix: "[守候] " # 为订阅节点添加机场名称前缀
 
+  ACA1:
+    url: 'https://dadada.acaisbest.com/api/v1/client/subscribe?token=24de69d0b9b03b3817ed8e620e88cff1'
+    <<: *NodeParam
+    path: './proxy_providers/ACA1.yaml'
+    override:
+      additional-prefix: "[ACA1] " # 为订阅节点添加机场名称前缀
+
 # 锚点 - 节点筛选组
 FilterHK: &FilterHK '^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
 FilterTW: &FilterTW '^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
